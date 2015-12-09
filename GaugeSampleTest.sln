@@ -1,5 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("282fdddc-b2ec-4e37-bd35-edbaa8739262") = "GaugeSampleTest", "GaugeSampleTest.csproj", "dd5a154a-a2d8-4aa6-9753-2d15691da699"
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeSampleTest", "GaugeSampleTest.csproj", "{DA9D3A6A-0D8B-424C-A307-1A849A0D33B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -7,10 +8,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		dd5a154a-a2d8-4aa6-9753-2d15691da699.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		dd5a154a-a2d8-4aa6-9753-2d15691da699.Debug|Any CPU.Build.0 = Debug|Any CPU
-		dd5a154a-a2d8-4aa6-9753-2d15691da699.Release|Any CPU.ActiveCfg = Release|Any CPU
-		dd5a154a-a2d8-4aa6-9753-2d15691da699.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9D3A6A-0D8B-424C-A307-1A849A0D33B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9D3A6A-0D8B-424C-A307-1A849A0D33B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9D3A6A-0D8B-424C-A307-1A849A0D33B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9D3A6A-0D8B-424C-A307-1A849A0D33B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
