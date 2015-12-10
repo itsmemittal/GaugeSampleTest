@@ -4,11 +4,17 @@ using Gauge.CSharp.Lib.Attribute;
 
 namespace GaugeSampleTest
 {
-	public class StepImplementation
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Firefox;
+
+    public class StepImplementation
 	{
         [Step("A context step which gets executed before every scenario")]
         public void Context()
         {
+            IWebDriver d = new FirefoxDriver();
+            d.Manage().Window.Maximize();
+            d.Navigate().GoToUrl("http://www.google.com");
             Console.WriteLine("This is a sample context");
         }
 
