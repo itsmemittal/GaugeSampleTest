@@ -15,6 +15,7 @@ namespace GaugeSampleTest
             IWebDriver d = new FirefoxDriver();
             d.Manage().Window.Maximize();
             d.Navigate().GoToUrl("http://www.google.com");
+            Console.Write(d.Title.Contains("Google"));
             Console.WriteLine("This is a sample context");
         }
 
